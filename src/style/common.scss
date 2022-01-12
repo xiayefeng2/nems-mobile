@@ -1,0 +1,16 @@
+@import "./mixin";
+html,
+body {
+  margin: 0;
+  height: 100%;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+ul,
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
