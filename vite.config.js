@@ -18,5 +18,8 @@ export default defineConfig({
         // additionalData: `@import "~@/style/variables.scss;"`
       }
     }
+  },
+  build: {
+    outDir: 'dist/mobile'
   }
 })
